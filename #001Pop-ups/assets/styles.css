@@ -1,0 +1,74 @@
+:root {
+  --background: #ffffff;
+  --font-color: #000000;
+  --principal-button: #ed6755;
+  --secondary-button: #2c3e50;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Poppins:wght@300;400;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: rgb(246, 246, 246);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+section {
+  background: var(--background);
+  margin: 20px 0;
+  width: 432px;
+  height: 399px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cookies p {
+  padding: 0 16px;
+  font-size: 20px;
+  color: var(--font-color);
+  text-align: center;
+}
+
+.cookies button {
+  background: var(--principal-button);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px -5px var(--principal-button);
+  padding: 15px 50px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.cerrar-sesion p {
+  font-size: 20px;
+  color: var(--font-color);
+  text-align: center;
+}
+.cerrar-sesion button {
+  background: var(--secondary-button);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px -5px var(--secondary-button);
+  padding: 15px 50px;
+  color: #ffffff;
+  font-size: 16px;
+}

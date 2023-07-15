@@ -1,0 +1,50 @@
+:root {
+  --background: #ffffff;
+  --color-text: #000000;
+  --primary-color: #203774;
+  --secondary-color: #4868bd;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Poppins:wght@300;400;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: rgb(246, 246, 246);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 859px;
+  height: 928px;
+  margin: 65px;
+  background-color: var(--background);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-card {
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 100px;
+  padding: 30px;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-card span {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
